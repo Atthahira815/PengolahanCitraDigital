@@ -7,8 +7,8 @@ import time
 # LOAD IMAGE
 # =========================
 
-ref = cv2.imread("Tugas/Week 3/Normal.jpeg", 0)    # gambar normal
-target = cv2.imread("Tugas/Week 3/Miring.jpeg", 0) # gambar miring
+ref = cv2.imread("Minggu 3/Tugas/Normal.jpeg", 0)    # gambar normal
+target = cv2.imread("Minggu 3/Tugas/Miring.jpeg", 0) # gambar miring
 
 h, w = ref.shape
 
@@ -197,3 +197,4 @@ plt.title("Error Bicubic")
 
 plt.suptitle("Error Map Comparison")
 plt.show()
+
