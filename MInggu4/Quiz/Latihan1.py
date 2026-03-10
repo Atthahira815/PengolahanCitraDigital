@@ -31,7 +31,7 @@ def manual_histogram_equalization(image):
 
 
 # Load image
-image = cv2.imread("Quiz/Minggu 4/Alam.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("Minggu4/Quiz/Alam.jpg", cv2.IMREAD_GRAYSCALE)
 
 equalized, transform = manual_histogram_equalization(image)
 
@@ -49,5 +49,6 @@ plt.imshow(equalized, cmap='gray')
 plt.axis('off')
 
 plt.show()
+
 
 print("\n=== PRAKTIKUM SELESAI ===")
