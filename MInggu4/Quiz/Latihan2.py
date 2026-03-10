@@ -55,7 +55,7 @@ def medical_image_enhancement(medical_image, modality='X-ray'):
 
 
 # Contoh penggunaan
-img = cv2.imread("Quiz/Minggu 4/XRayKepala.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("Minggu4/Quiz/XRayKepala.jpg", cv2.IMREAD_GRAYSCALE)
 
 enhanced, report = medical_image_enhancement(img,'X-ray')
 
@@ -67,5 +67,6 @@ cv2.imshow("Original", img)
 cv2.imshow("Enhanced", enhanced)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 
 print("\n=== PRAKTIKUM SELESAI ===")
