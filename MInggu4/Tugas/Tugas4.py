@@ -158,8 +158,9 @@ def process_image(path,title):
 # MAIN PROGRAM
 # ================================
 
-process_image("Tugas/Week 4/UnderExposed.jpg","Underexposed Image")
-process_image("Tugas/Week 4/OverExposed.jpg","Overexposed Image")
-process_image("Tugas/Week 4/UnEven.jpg","Uneven Illumination Image")
+process_image("Minggu4/Tugas/UnderExposed.jpg","Underexposed Image")
+process_image("Minggu4/TugasTugas/Week 4/OverExposed.jpg","Overexposed Image")
+process_image("Minggu4/Tugas/UnEven.jpg","Uneven Illumination Image")
+
 
 print("\n=== PROGRAM SELESAI ===")
