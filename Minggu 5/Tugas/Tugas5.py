@@ -13,7 +13,7 @@ print("=" * 60)
 # LOAD / CREATE IMAGE
 # ================================
 
-img = cv2.imread("Tugas/Week 5/RiskiGacor.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("Minggu 5/Tugas//RiskiGacor.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     img = np.zeros((256,256), dtype=np.uint8)
