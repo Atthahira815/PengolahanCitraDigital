@@ -8,7 +8,7 @@ import time
 # =========================
 # 1. LOAD CITRA
 # =========================
-img = cv2.imread('Tugas/Week 7/RiskiGacor.jpg', 0)
+img = cv2.imread('MInggu7/Tugas/RiskiGacor.jpg', 0)
 img = cv2.resize(img, (256, 256))
 
 # Noise periodik
